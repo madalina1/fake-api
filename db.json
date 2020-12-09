@@ -1,129 +1,181 @@
 {
-  result: [
+  "result": [
     {
-    type: 'calculation',
-    name: 'Table with beer',
-    tags: [
-      {
-        name: 'beer',
-      },
-      {
-        name: 'another tag',
-      },
-    ],
-    removable: true,
-    properties: {
-      size: {
-        x: 0,
-        y: 0,
-        w: 2,
-        h: 2,
-      },
-    },
-    state: {
-      value: 123,
-    },
-  },
-  {
-    type: 'calculation',
-    name: 'Chart with beer',
-    tags: [
-      {
-        name: 'beer',
-      },
-      {
-        name: 'another tag',
-      },
-    ],
-    removable: true,
-    properties: {
-      size: {
-        x: 2,
-        y: 0,
-        w: 2,
-        h: 2,
-      },
-    },
-    state: {
-      value: 50000,
-    },
-  },
-  {
-    type: 'table',
-    name: 'Table with totals',
-    tags: [
-      {
-        name: 'beer',
-      },
-      {
-        name: 'another tag',
-      },
-    ],
-    removable: true,
-    properties: {
-      size: {
-        x: 0,
-        y: 1,
-        w: 4,
-        h: 3,
-      },
-      numberOfDecimalPlaces: 2,
-    },
-    state: {
-      result: {
-        header: {
-          rows: [''],
-          columns: ['measure_name'],
-          columnKeys: [['Volume (000 9 Litre Cases)']],
-          rowKeys: [['Totals']],
+      "type": "calculation",
+      "name": "Table with beer",
+      "tags": [
+        {
+          "name": "beer"
         },
-        values: [[1567319.64943442]],
-        tableConfiguration: {
-          pagination: { currentPage: 1, totalNumberOfPages: 1 },
-          orderBy: { dimensions: [], preserveGroupOrder: true, measures: null },
-        },
-        queryId: null,
+        {
+          "name": "another tag"
+        }
+      ],
+      "removable": true,
+      "properties": {
+        "size": {
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 2
+        }
       },
+      "state": {
+        "value": 123
+      }
     },
-  },
-  {
-    type: 'table',
-    name: 'Table with Area',
-    tags: [
-      {
-        name: 'beer',
-      },
-      {
-        name: 'another tag',
-      },
-    ],
-    removable: true,
-    properties: {
-      size: {
-        x: 4,
-        y: 1,
-        w: 4,
-        h: 5,
-      },
-      numberOfDecimalPlaces: 2,
-    },
-    state: {
-      result: {
-        header: {
-          rows: ['Area'],
-          columns: ['measure_name'],
-          columnKeys: [['Volume (000 9 Litre Cases)']],
-          rowKeys: [['Central Europe and Balkans'], ['CIS']],
+    {
+      "type": "calculation",
+      "name": "Chart with beer",
+      "tags": [
+        {
+          "name": "beer"
         },
-        values: [[1438193.46819329], [129126.18124113]],
-        tableConfiguration: {
-          pagination: { currentPage: 1, totalNumberOfPages: 1 },
-          orderBy: { dimensions: [], preserveGroupOrder: true, measures: null },
-        },
-        queryId: null,
+        {
+          "name": "another tag"
+        }
+      ],
+      "removable": true,
+      "properties": {
+        "size": {
+          "x": 2,
+          "y": 0,
+          "w": 2,
+          "h": 2
+        }
       },
+      "state": {
+        "value": 50000
+      }
     },
-  },
-]
-  errorMessage: null,
+    {
+      "type": "table",
+      "name": "Table with totals",
+      "tags": [
+        {
+          "name": "beer"
+        },
+        {
+          "name": "another tag"
+        }
+      ],
+      "removable": true,
+      "properties": {
+        "size": {
+          "x": 0,
+          "y": 1,
+          "w": 4,
+          "h": 3
+        },
+        "numberOfDecimalPlaces": 2
+      },
+      "state": {
+        "result": {
+          "header": {
+            "rows": [
+              ""
+            ],
+            "columns": [
+              "measure_name"
+            ],
+            "columnKeys": [
+              [
+                "Volume (000 9 Litre Cases)"
+              ]
+            ],
+            "rowKeys": [
+              [
+                "Totals"
+              ]
+            ]
+          },
+          "values": [
+            [
+              1567319.64943442
+            ]
+          ],
+          "tableConfiguration": {
+            "pagination": {
+              "currentPage": 1,
+              "totalNumberOfPages": 1
+            },
+            "orderBy": {
+              "dimensions": [],
+              "preserveGroupOrder": true,
+              "measures": null
+            }
+          },
+          "queryId": null
+        }
+      }
+    },
+    {
+      "type": "table",
+      "name": "Table with Area",
+      "tags": [
+        {
+          "name": "beer"
+        },
+        {
+          "name": "another tag"
+        }
+      ],
+      "removable": true,
+      "properties": {
+        "size": {
+          "x": 4,
+          "y": 1,
+          "w": 4,
+          "h": 5
+        },
+        "numberOfDecimalPlaces": 2
+      },
+      "state": {
+        "result": {
+          "header": {
+            "rows": [
+              "Area"
+            ],
+            "columns": [
+              "measure_name"
+            ],
+            "columnKeys": [
+              [
+                "Volume (000 9 Litre Cases)"
+              ]
+            ],
+            "rowKeys": [
+              [
+                "Central Europe and Balkans"
+              ],
+              [
+                "CIS"
+              ]
+            ]
+          },
+          "values": [
+            [
+              1438193.46819329
+            ],
+            [
+              129126.18124113
+            ]
+          ],
+          "tableConfiguration": {
+            "pagination": {
+              "currentPage": 1,
+              "totalNumberOfPages": 1
+            },
+            "orderBy": {
+              "dimensions": [],
+              "preserveGroupOrder": true,
+              "measures": null
+            }
+          },
+          "queryId": null
+        }
+      }
+    }
+  ],
+  "errorMessage": null
 }
